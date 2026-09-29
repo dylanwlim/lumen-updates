@@ -16,7 +16,7 @@ Requires macOS 13 or later. Includes Apple silicon and Intel support. Display fe
 
 The Cursor tab controls cursor fill, border, and size. Changes affect the macOS pointer and remain after Lumen quits. Use **Reset cursor** to restore the default colors and size before uninstalling when needed. Apps that draw their own cursor may not follow these settings.
 
-Lumen's optional cursor controls require Full Disk Access. That permission grants broad local file access; brightness controls do not require it. You can leave the permission off and use **Pointer Settings** instead. Unsupported pointer APIs disable the in-app controls without disabling brightness. The included release documentation describes tested hardware and macOS coverage.
+Lumen's optional cursor controls require Full Disk Access. That permission grants broad local file access; brightness controls do not require it. You can leave the permission off and use **Pointer Settings** instead. Unsupported pointer APIs disable the in-app controls without disabling brightness. The Read Me included in the DMG describes tested hardware and macOS coverage.
 
 ## Updates
 
@@ -28,6 +28,6 @@ Update metadata and archives are cryptographically signed and verified before in
 
 Preferences stay on your Mac. Lumen has no telemetry. An update check contacts GitHub, which receives ordinary connection information; display preferences are not sent. This repository contains public downloads and documentation only. The application source and signing credentials remain private.
 
-The release's included Read Me contains the full control, restoration, recovery, and removal instructions. Describe the app version, macOS version, hardware, and reproducible behavior when reporting a problem; do not upload private logs, signing material, or personal files.
+The DMG's included Read Me contains the full control, restoration, recovery, and removal instructions. Describe the app version, macOS version, hardware, and reproducible behavior when reporting a problem; do not upload private logs, signing material, or personal files.
 
 Made by [Dylan](https://dylanwlim.com).
